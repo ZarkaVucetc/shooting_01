@@ -1,0 +1,370 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+color:#ffffff;
+background:#999999 url(slikef/pozadina.jpg) no-repeat center center fixed;
+/*background: url(images/bg.jpg) no-repeat center center fixed;*/ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+font-family:"Microsoft Sans Serif", Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+
+}
+
+#glavni {
+width: 750px;
+height: 628px;
+margin: 0 auto;
+margin-top: 50px;
+background-color:rgba(37,37,37,0.7);
+}
+
+#header {
+clear:both;
+height: 78px;
+margin-bottom: 10px;
+border-bottom: #ffffff solid 2px;
+
+}
+
+#logo {
+	float: left;
+	width: 266px;
+	height: 45px;
+	font-size: 18px;
+	margin-top: 20px;
+	padding-left: 15px;
+	font-family:"Century Gothic",Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+#meni {
+	float: right;
+	width: 450px;
+	height: 48px;
+	padding-top: 30px;
+	padding-right: 15px;
+}
+
+
+#meni ul {
+	list-style: none;
+	float: right;
+}
+
+
+#meni li {
+	display: inline;
+}
+
+#meni a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 7px;
+	padding-right: 7px;
+	border-left: 1px solid #ffffff;
+	color:#ffffff;
+	font-size: 14px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#meni a:hover {
+	text-decoration: underline;
+}
+
+#meni a.naslovna {
+	border: none;
+}
+
+
+/*index*/
+
+#tekst{
+text-align:justify;
+padding:50px;
+
+		}
+
+#tekst a{
+	font-size: 14px;
+	color:#ed1c24;
+	text-decoration: none;
+}
+
+#tekst h4{
+font-size:50px;
+font-weight:italic;
+margin-bottom:40px;
+text-align:center;
+color: #8z8z8z;
+}
+
+#tekst h2{
+font-size:18px;
+font-weight:italic;
+margin-top:40px;
+text-align:center;
+color: #8z8z8z;
+}
+
+/*anketa*/
+
+#sadrzaj {
+	width: 750px;
+	height: 450px;
+}
+
+#sadrzaj h3{
+color: #636363;
+}
+
+#deo {
+   	height: 30px;
+	clear:both;
+	margin-top: 10px;
+	padding: 25px;	
+}
+
+#naslov h2{
+	padding-right: 160px;
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+#deo2 {
+	height: 405px;
+	clear:both;
+}
+
+#gore {
+padding-left:180px;
+}
+
+#gore h2 {
+	font-size: 14px;
+}
+
+#dole {
+padding-left: 190px;
+padding-top: 10px;
+}
+
+input{
+margin-top: 10px;
+width: 110px;
+
+}
+
+table {
+	color: #999999;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+	
+	}
+
+td {
+color:#000000;
+background-color:rgba(255,255,255,0.6);
+}
+
+#dole label {
+color: #000000;
+	}
+	
+label {
+	font-size: 14px;
+}
+
+#glasaj {
+margin-left: 140px;
+margin-top: 15px;
+width: 80px;
+height:32px
+}
+
+
+/*slike*/
+
+#deo2 ul{
+	list-style: none;
+	padding-top: 15px;
+	padding-left: 300px;
+}
+
+.galerija {
+margin-top: 15px;
+margin-left: 65px;
+width:160px;
+height:110px;
+}
+
+#deo2 a {
+	font-size: 16px;
+	color:#ed1c24;
+	text-decoration: none;
+		}
+		
+		
+/*takmicari*/
+
+#prvi, #treci {
+float: left;
+padding-left: 40px;
+padding-top: 25px;
+width: 310px;
+text-align:justify;
+}
+
+#drugi, #cetvrti {
+float: right;
+padding-right: 40px;
+padding-top: 25px;
+width: 310px;
+text-align:justify;
+}
+
+#prvi, #drugi, #treci, #cetvrti {
+font-size: 12px;
+}
+
+#prvi img, #drugi img, #treci img, #cetvrti img {
+width:70px;
+height:100px;
+float:left;
+margin-right:10px;
+margin-bottom: 5px;
+}
+
+#ostali ul{
+padding-right: 50px;
+text-align:right;
+padding-top:25px;
+}
+
+#prvi h3, #drugi h3, #treci h3, #cetvrti h3{
+color:#ffffff;
+}
+
+
+/*kontakt*/
+
+#kontakt1  {
+padding-top: 30px;
+padding-left: 250px;
+}
+
+#kontakt2  {
+padding-left: 220px;
+padding-top: 10px;
+}
+
+#kontakt3  {
+padding-left: 186px;
+padding-top: 10px;
+}
+
+#kontakt4  {
+padding-left: 240px;
+padding-top: 10px;
+
+}
+
+#input {
+width: 250px;
+height: 130px;
+}
+
+#posalji {
+margin-left: 280px;
+margin-top: 10px;
+width: 80px;
+height:32px
+}
+
+/*novosti*/
+#levi {
+float:left;
+width: 330px;
+padding-left: 25px;
+padding-top: 25px;
+text-align:justify;
+}
+
+#levi h2, #desni h2  {
+font-size: 14px;
+margin-bottom: 15px;
+}
+
+#desni {
+float:right;
+padding-top: 25px;
+padding-right: 25px;
+width: 330px;
+text-align:justify;
+}
+
+#levi img, #desni img  {
+float:left;
+margin-right: 20px;
+margin-bottom: 1px;
+}
+
+
+span{
+	color: #ed1c24;
+	font-size:14px;
+}
+
+/*futer*/
+
+#footer{
+height: 70px;
+}
+
+#footer_meni {
+	margin-top:20px;
+	padding-left: 257px;
+	padding-bottom: 20px;
+    padding-top: 15px;
+	border-top: #ffffff solid 2px;
+
+}
+
+#footer_meni ul {
+	list-style: none;
+}
+
+#footer_meni li {
+	display: inline;
+}
+
+#footer_meni a {
+	color: #ffffff;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#footer_meni a:hover {
+	text-decoration: underline;
+}
+
+#footer_copyright {
+	padding-left: 315px;
+	background-color: #ffffff;
+}
+
+#footer_copyright p{
+	color: #888888;
+	font-size: 12px;
+	}
+
